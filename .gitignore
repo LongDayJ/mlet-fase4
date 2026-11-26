@@ -1,0 +1,11 @@
+__pycache__/
+outputs/
+logs/
+# dataset de poemas (terceiros, não redistribuir) e os arquivos gerados a partir dele
+data/poems/
+data/*.jsonl
+*.pyc
+.venv/
+
+# cópias de segurança de adaptadores de rodadas anteriores
+_bak_*/

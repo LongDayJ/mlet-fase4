@@ -1,0 +1,338 @@
+{
+  "bases": {
+    "pt": "pierreguillou/gpt2-small-portuguese",
+    "en": "gpt2"
+  },
+  "perplexity": {
+    "pt · base": 50.138690446568354,
+    "pt · ajustado": 3.344902321072346,
+    "en · base": 29.05052338886712,
+    "en · ajustado": 1.2130772495972135
+  },
+  "perplexidade_por_modo": {
+    "pt · base": {
+      "rumor": 24.199968181781887,
+      "poema": 124.18241848817117,
+      "npc": 112.99379138402749,
+      "conto": 38.22624166326578,
+      "cenario": 94.11723288886793,
+      "missao": 34.47284734213792,
+      "familia": 26.686579392343333
+    },
+    "pt · ajustado": {
+      "rumor": 1.2352397669998807,
+      "poema": 83.80315064459086,
+      "npc": 1.301091118162582,
+      "conto": 1.1708891251172102,
+      "cenario": 1.1561969990017755,
+      "missao": 1.149151948416072,
+      "familia": 1.2321125113914373
+    },
+    "en · base": {
+      "cenario": 73.0431857219098,
+      "rumor": 19.5922894484725,
+      "conto": 25.518203460818043,
+      "missao": 29.460771021229466,
+      "familia": 22.495991095463353,
+      "npc": 50.490721180005075
+    },
+    "en · ajustado": {
+      "cenario": 1.1787854598251577,
+      "rumor": 1.252085272142291,
+      "conto": 1.1717481202673685,
+      "missao": 1.1745406875627726,
+      "familia": 1.2516739420431495,
+      "npc": 1.3488539879038555
+    }
+  },
+  "metrics": {
+    "pt · base": {
+      "distinct-1": 0.3128447596532703,
+      "distinct-2": 0.5769230769230769,
+      "distinct-3": 0.6607142857142857,
+      "repeticao_trigramas": 0.3327029408923021,
+      "palavras_medias": 60.42857142857143,
+      "terminou_sozinho": 0.0
+    },
+    "pt · ajustado": {
+      "distinct-1": 0.34664131812420784,
+      "distinct-2": 0.6178548490687219,
+      "distinct-3": 0.7005208333333334,
+      "repeticao_trigramas": 0.12621351810281847,
+      "palavras_medias": 75.14285714285714,
+      "terminou_sozinho": 1.0
+    },
+    "en · base": {
+      "distinct-1": 0.6204199258954303,
+      "distinct-2": 0.9618889809444905,
+      "distinct-3": 0.995831596498541,
+      "repeticao_trigramas": 0.0,
+      "palavras_medias": 161.93333333333334,
+      "terminou_sozinho": 0.7333333333333333
+    },
+    "en · ajustado": {
+      "distinct-1": 0.3784901758014478,
+      "distinct-2": 0.6050420168067226,
+      "distinct-3": 0.67982924226254,
+      "repeticao_trigramas": 0.04844234320828079,
+      "palavras_medias": 64.46666666666667,
+      "terminou_sozinho": 1.0
+    }
+  },
+  "formato_correto": {
+    "pt · base": {
+      "conto/visto": 0.0,
+      "conto/novo": 0.0,
+      "cenario/visto": 0.0,
+      "cenario/novo": 0.0,
+      "npc/visto": 0.0,
+      "npc/novo": 0.0,
+      "missao/visto": 0.0,
+      "missao/novo": 0.0,
+      "rumor/visto": 0.0,
+      "rumor/novo": 0.0,
+      "familia/visto": 0.0,
+      "familia/novo": 0.0,
+      "poema/visto": 0.0,
+      "poema/novo": 0.0
+    },
+    "pt · ajustado": {
+      "conto/visto": 1.0,
+      "conto/novo": 0.9166666666666666,
+      "cenario/visto": 0.9583333333333334,
+      "cenario/novo": 1.0,
+      "npc/visto": 1.0,
+      "npc/novo": 1.0,
+      "missao/visto": 1.0,
+      "missao/novo": 1.0,
+      "rumor/visto": 0.875,
+      "rumor/novo": 0.9166666666666666,
+      "familia/visto": 0.9583333333333334,
+      "familia/novo": 0.75,
+      "poema/visto": 1.0,
+      "poema/novo": 1.0
+    },
+    "en · base": {
+      "conto/visto": 0.0,
+      "conto/novo": 0.0,
+      "cenario/visto": 0.0,
+      "cenario/novo": 0.0,
+      "npc/visto": 0.0,
+      "npc/novo": 0.0,
+      "missao/visto": 0.0,
+      "missao/novo": 0.0,
+      "rumor/visto": 0.0,
+      "rumor/novo": 0.0,
+      "familia/visto": 0.0,
+      "familia/novo": 0.0
+    },
+    "en · ajustado": {
+      "conto/visto": 1.0,
+      "conto/novo": 1.0,
+      "cenario/visto": 1.0,
+      "cenario/novo": 1.0,
+      "npc/visto": 1.0,
+      "npc/novo": 1.0,
+      "missao/visto": 1.0,
+      "missao/novo": 1.0,
+      "rumor/visto": 1.0,
+      "rumor/novo": 1.0,
+      "familia/visto": 0.75,
+      "familia/novo": 0.7916666666666666
+    }
+  },
+  "sweep": {
+    "pt · T=0.5 rep=1.0": {
+      "distinct-1": 0.27292225201072384,
+      "distinct-2": 0.4853579175704989,
+      "distinct-3": 0.5507405375754251,
+      "repeticao_trigramas": 0.18732157832397192,
+      "palavras_medias": 88.80952380952381,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.5 rep=1.05": {
+      "distinct-1": 0.3076459963877182,
+      "distinct-2": 0.5396341463414634,
+      "distinct-3": 0.6151945645460161,
+      "repeticao_trigramas": 0.17865845661521287,
+      "palavras_medias": 79.0952380952381,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.5 rep=1.1": {
+      "distinct-1": 0.3157572041692213,
+      "distinct-2": 0.5614906832298137,
+      "distinct-3": 0.6425424795468848,
+      "repeticao_trigramas": 0.1409446545785412,
+      "palavras_medias": 77.66666666666667,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.7 rep=1.0": {
+      "distinct-1": 0.31676646706586825,
+      "distinct-2": 0.5603395997574288,
+      "distinct-3": 0.6320638820638821,
+      "repeticao_trigramas": 0.1807034183925101,
+      "palavras_medias": 79.52380952380952,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.7 rep=1.05": {
+      "distinct-1": 0.34664131812420784,
+      "distinct-2": 0.6178548490687219,
+      "distinct-3": 0.7005208333333334,
+      "repeticao_trigramas": 0.12621351810281847,
+      "palavras_medias": 75.14285714285714,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.7 rep=1.1": {
+      "distinct-1": 0.3395061728395062,
+      "distinct-2": 0.6091307066916823,
+      "distinct-3": 0.6932826362484157,
+      "repeticao_trigramas": 0.112306167588512,
+      "palavras_medias": 77.14285714285714,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.9 rep=1.0": {
+      "distinct-1": 0.33817301875378103,
+      "distinct-2": 0.6237745098039216,
+      "distinct-3": 0.7119801365611421,
+      "repeticao_trigramas": 0.11045112044559803,
+      "palavras_medias": 78.71428571428571,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.9 rep=1.05": {
+      "distinct-1": 0.36561142147734327,
+      "distinct-2": 0.6616352201257861,
+      "distinct-3": 0.7444231994901211,
+      "repeticao_trigramas": 0.07054351907386401,
+      "palavras_medias": 76.71428571428571,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=0.9 rep=1.1": {
+      "distinct-1": 0.3765586034912718,
+      "distinct-2": 0.6708780795957043,
+      "distinct-3": 0.7509603072983355,
+      "repeticao_trigramas": 0.05581440435819235,
+      "palavras_medias": 76.38095238095238,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=1.1 rep=1.0": {
+      "distinct-1": 0.34348864994026285,
+      "distinct-2": 0.6243194192377496,
+      "distinct-3": 0.7046568627450981,
+      "repeticao_trigramas": 0.08018548252511956,
+      "palavras_medias": 79.71428571428571,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=1.1 rep=1.05": {
+      "distinct-1": 0.360146252285192,
+      "distinct-2": 0.654320987654321,
+      "distinct-3": 0.7248280175109444,
+      "repeticao_trigramas": 0.06746566882508087,
+      "palavras_medias": 78.14285714285714,
+      "terminou_sozinho": 1.0
+    },
+    "pt · T=1.1 rep=1.1": {
+      "distinct-1": 0.36261682242990656,
+      "distinct-2": 0.6571969696969697,
+      "distinct-3": 0.7332053742802304,
+      "repeticao_trigramas": 0.05701039846467986,
+      "palavras_medias": 76.42857142857143,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.5 rep=1.0": {
+      "distinct-1": 0.3760523854069224,
+      "distinct-2": 0.635673624288425,
+      "distinct-3": 0.7247353224254091,
+      "repeticao_trigramas": 0.06526072707527837,
+      "palavras_medias": 71.26666666666667,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.5 rep=1.05": {
+      "distinct-1": 0.386839481555334,
+      "distinct-2": 0.6366396761133604,
+      "distinct-3": 0.7183967112024666,
+      "repeticao_trigramas": 0.05107232068541271,
+      "palavras_medias": 66.86666666666666,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.5 rep=1.1": {
+      "distinct-1": 0.3864337101747174,
+      "distinct-2": 0.6356993736951984,
+      "distinct-3": 0.7306468716861082,
+      "repeticao_trigramas": 0.026838799385399934,
+      "palavras_medias": 64.86666666666666,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.7 rep=1.0": {
+      "distinct-1": 0.3877358490566038,
+      "distinct-2": 0.6468899521531101,
+      "distinct-3": 0.7349514563106796,
+      "repeticao_trigramas": 0.04330453821286403,
+      "palavras_medias": 70.66666666666667,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.7 rep=1.05": {
+      "distinct-1": 0.3784901758014478,
+      "distinct-2": 0.6050420168067226,
+      "distinct-3": 0.67982924226254,
+      "repeticao_trigramas": 0.04844234320828079,
+      "palavras_medias": 64.46666666666667,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.7 rep=1.1": {
+      "distinct-1": 0.4027237354085603,
+      "distinct-2": 0.6584402764067128,
+      "distinct-3": 0.7525050100200401,
+      "repeticao_trigramas": 0.03263522040341651,
+      "palavras_medias": 68.53333333333333,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.9 rep=1.0": {
+      "distinct-1": 0.3880597014925373,
+      "distinct-2": 0.6546830652790918,
+      "distinct-3": 0.746641074856046,
+      "repeticao_trigramas": 0.06883725329127165,
+      "palavras_medias": 71.46666666666667,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.9 rep=1.05": {
+      "distinct-1": 0.3942857142857143,
+      "distinct-2": 0.6560386473429952,
+      "distinct-3": 0.7431372549019608,
+      "repeticao_trigramas": 0.0453648464944762,
+      "palavras_medias": 70.0,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=0.9 rep=1.1": {
+      "distinct-1": 0.3900900900900901,
+      "distinct-2": 0.6566210045662101,
+      "distinct-3": 0.7537037037037037,
+      "repeticao_trigramas": 0.025638449675048403,
+      "palavras_medias": 74.0,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=1.1 rep=1.0": {
+      "distinct-1": 0.4054307116104869,
+      "distinct-2": 0.6847103513770181,
+      "distinct-3": 0.7716763005780347,
+      "repeticao_trigramas": 0.06792082438634163,
+      "palavras_medias": 71.2,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=1.1 rep=1.05": {
+      "distinct-1": 0.402970297029703,
+      "distinct-2": 0.6582914572864321,
+      "distinct-3": 0.7428571428571429,
+      "repeticao_trigramas": 0.04584862804011804,
+      "palavras_medias": 67.33333333333333,
+      "terminou_sozinho": 1.0
+    },
+    "en · T=1.1 rep=1.1": {
+      "distinct-1": 0.41535615171137835,
+      "distinct-2": 0.7091932457786116,
+      "distinct-3": 0.8049476688867745,
+      "repeticao_trigramas": 0.024564497220453514,
+      "palavras_medias": 72.06666666666666,
+      "terminou_sozinho": 1.0
+    }
+  }
+}
